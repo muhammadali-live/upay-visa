@@ -24,7 +24,7 @@ class UpayClient:
             "password": self.__password,
             "notify_url": self.__notify_url
         }
-
+    
     def reg_card(self, **kwargs):
         req = RegCardRequest(**kwargs).with_access_token(
             **self.__configs).to_dict()

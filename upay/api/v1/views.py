@@ -20,18 +20,18 @@ class RegCardView(APIView):
 
 
 class HoldCreateView(APIView):
-
+    """Coming soon!"""
     def post(self, request):
-        return Response(data={"Hold create: You can hold"})
+        pass
 
 
 class HoldPayView(APIView):
-
+    """Coming soon!"""
     def post(self, request):
-        return Response(data={"You can pay to your hold"})
+        pass
 
 
 class HoldCheck(APIView):
-
+    """Coming soon!"""
     def post(self, request):
-        return Response(data={"Hold check: You can check your own hold"})
+        pass
